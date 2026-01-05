@@ -31,9 +31,7 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 /tests/tests/
 /tests/results/
 
-# Uploads
-assets/uploads/*
-!assets/uploads/.htaccess
-!assets/uploads/*/
-assets/uploads/*/
+# Uploads - Keep directory structure but ignore uploaded files
+assets/uploads/*/*
+!assets/uploads/*/.htaccess
 !assets/uploads/*/index.html
