@@ -34,3 +34,6 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 # Uploads
 assets/uploads/*
 !assets/uploads/.htaccess
+!assets/uploads/*/
+assets/uploads/*/
+!assets/uploads/*/index.html
